@@ -32,9 +32,92 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
 
+    .book-cover {
+      width: 400px;
+      height: 600px;
+      background: rgb(2, 46, 78);
+      border: 2px solid #333;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: goldenrod;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+      color:goldenrod;
+    }
+
+    .image {
+      flex: 1;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
+      margin: 30px 0;
+    }
+
+    .author {
+      font-size: 18px;
+      text-align: center;
+      color: goldenrod;
+      margin-top: 20px;
+    }
+
+    .line {
+      height: 2px;
+      background: #d9d5d5;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="book-cover">
+    <div>
+      <div class="title">LIFE OF PI</div>
+      <div class="line"></div>
+      <div class="subtitle">Animals as Mirrors of Humanity</div>
+    </div>
+    <div class="image">
+        <img src="./Screenshot 2025-04-29 031435.png" length="5%" width="100%">
+    </div>
+    <div class="author">By Yaan Martel</div>
+  </div>
+</body>
+</html>
+  
+```
 ## OUTPUT:
 
+![alt text](<Screenshot 2025-04-29 033656.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
